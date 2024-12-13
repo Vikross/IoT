@@ -14,7 +14,6 @@ class SmartLampApp:
         self.light_threshold = 50
         self.update_interval = 10
 
-        # Создание интерфейса
         self.light_level_label = tk.Label(root, text=f"Уровень освещенности: {self.light_level}%", font=("Arial", 14))
         self.light_level_label.pack()
 
